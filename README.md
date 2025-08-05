@@ -26,38 +26,7 @@ UI enhancements: spinners, toasts, error handling
 Deployment: Vercel (frontend), Render/Railway (backend)
 Final README & test case documentation
 write the compete code and create the outline
-quickcart/
-├── client/                        # Frontend (React)
-│   ├── public/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── components/
-│   │   ├── context/              # Auth context, theme context
-│   │   ├── pages/                # Home, Login, Dashboard, etc.
-│   │   ├── redux/                # Slices and store setup
-│   │   ├── routes/               # Protected routes
-│   │   ├── utils/                # Helper functions
-│   │   ├── styles/
-│   │   ├── hooks/
-│   │   └── App.jsx
-│   ├── .env.example
-│   ├── README.md
-│   └── package.json
-│
-├── server/                       # Backend (Node.js + Express)
-│   ├── config/                   # DB connection, Stripe config
-│   ├── controllers/              # Logic for auth, product, order
-│   ├── middleware/               # Auth, error handlers
-│   ├── models/                   # Mongoose schemas
-│   ├── routes/                   # API routes
-│   ├── utils/                    # Utility functions
-│   ├── sockets/                  # WebSocket logic for cart updates
-│   ├── .env.example
-│   └── package.json
-│
-├── .env.example
-├── README.md
-└── package.json                 # Root-level dependencies (if any)
+
 🧩 Code Module Outline
 🔐 Phase 1 — Authentication, Product & Cart Management
 Backend:
